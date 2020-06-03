@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-scroll-page
+ */
+export * from './lib/ngx-scroll-page.service';
+export * from './lib/ngx-scroll-page.component';
+export * from './lib/ngx-scroll-page.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1zY3JvbGwtcGFnZS8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLCtCQUErQixDQUFDO0FBQzlDLGNBQWMsaUNBQWlDLENBQUM7QUFDaEQsY0FBYyw4QkFBOEIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXNjcm9sbC1wYWdlXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXNjcm9sbC1wYWdlLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXNjcm9sbC1wYWdlLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtc2Nyb2xsLXBhZ2UubW9kdWxlJztcbiJdfQ==

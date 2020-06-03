@@ -1,0 +1,18 @@
+import { __decorate } from "tslib";
+import { NgModule } from '@angular/core';
+import { NgxScrollPageComponent } from './ngx-scroll-page.component';
+import { PagescrollComponent } from './pagescroll/pagescroll.component';
+var NgxScrollPageModule = /** @class */ (function () {
+    function NgxScrollPageModule() {
+    }
+    NgxScrollPageModule = __decorate([
+        NgModule({
+            declarations: [NgxScrollPageComponent, PagescrollComponent],
+            imports: [],
+            exports: [NgxScrollPageComponent, PagescrollComponent]
+        })
+    ], NgxScrollPageModule);
+    return NgxScrollPageModule;
+}());
+export { NgxScrollPageModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LXNjcm9sbC1wYWdlLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1zY3JvbGwtcGFnZS8iLCJzb3VyY2VzIjpbImxpYi9uZ3gtc2Nyb2xsLXBhZ2UubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxzQkFBc0IsRUFBRSxNQUFNLDZCQUE2QixDQUFDO0FBQ3JFLE9BQU8sRUFBRSxtQkFBbUIsRUFBRSxNQUFNLG1DQUFtQyxDQUFDO0FBVXhFO0lBQUE7SUFBbUMsQ0FBQztJQUF2QixtQkFBbUI7UUFOL0IsUUFBUSxDQUFDO1lBQ1IsWUFBWSxFQUFFLENBQUMsc0JBQXNCLEVBQUUsbUJBQW1CLENBQUM7WUFDM0QsT0FBTyxFQUFFLEVBQ1I7WUFDRCxPQUFPLEVBQUUsQ0FBQyxzQkFBc0IsRUFBRSxtQkFBbUIsQ0FBQztTQUN2RCxDQUFDO09BQ1csbUJBQW1CLENBQUk7SUFBRCwwQkFBQztDQUFBLEFBQXBDLElBQW9DO1NBQXZCLG1CQUFtQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBOZ3hTY3JvbGxQYWdlQ29tcG9uZW50IH0gZnJvbSAnLi9uZ3gtc2Nyb2xsLXBhZ2UuY29tcG9uZW50JztcbmltcG9ydCB7IFBhZ2VzY3JvbGxDb21wb25lbnQgfSBmcm9tICcuL3BhZ2VzY3JvbGwvcGFnZXNjcm9sbC5jb21wb25lbnQnO1xuXG5cblxuQE5nTW9kdWxlKHtcbiAgZGVjbGFyYXRpb25zOiBbTmd4U2Nyb2xsUGFnZUNvbXBvbmVudCwgUGFnZXNjcm9sbENvbXBvbmVudF0sXG4gIGltcG9ydHM6IFtcbiAgXSxcbiAgZXhwb3J0czogW05neFNjcm9sbFBhZ2VDb21wb25lbnQsIFBhZ2VzY3JvbGxDb21wb25lbnRdXG59KVxuZXhwb3J0IGNsYXNzIE5neFNjcm9sbFBhZ2VNb2R1bGUgeyB9XG4iXX0=

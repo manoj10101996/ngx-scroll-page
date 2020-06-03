@@ -1,0 +1,7 @@
+import { OnInit } from '@angular/core';
+export declare class PagescrollComponent implements OnInit {
+    constructor();
+    background: string;
+    ngOnInit(): void;
+    top(): void;
+}

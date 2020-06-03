@@ -1,0 +1,16 @@
+import { __decorate } from "tslib";
+import { Injectable } from '@angular/core';
+import * as i0 from "@angular/core";
+var NgxScrollPageService = /** @class */ (function () {
+    function NgxScrollPageService() {
+    }
+    NgxScrollPageService.ɵprov = i0.ɵɵdefineInjectable({ factory: function NgxScrollPageService_Factory() { return new NgxScrollPageService(); }, token: NgxScrollPageService, providedIn: "root" });
+    NgxScrollPageService = __decorate([
+        Injectable({
+            providedIn: 'root'
+        })
+    ], NgxScrollPageService);
+    return NgxScrollPageService;
+}());
+export { NgxScrollPageService };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LXNjcm9sbC1wYWdlLnNlcnZpY2UuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZ3gtc2Nyb2xsLXBhZ2UvIiwic291cmNlcyI6WyJsaWIvbmd4LXNjcm9sbC1wYWdlLnNlcnZpY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLE9BQU8sRUFBRSxVQUFVLEVBQUUsTUFBTSxlQUFlLENBQUM7O0FBSzNDO0lBRUU7SUFBZ0IsQ0FBQzs7SUFGTixvQkFBb0I7UUFIaEMsVUFBVSxDQUFDO1lBQ1YsVUFBVSxFQUFFLE1BQU07U0FDbkIsQ0FBQztPQUNXLG9CQUFvQixDQUdoQzsrQkFSRDtDQVFDLEFBSEQsSUFHQztTQUhZLG9CQUFvQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQEluamVjdGFibGUoe1xuICBwcm92aWRlZEluOiAncm9vdCdcbn0pXG5leHBvcnQgY2xhc3MgTmd4U2Nyb2xsUGFnZVNlcnZpY2Uge1xuXG4gIGNvbnN0cnVjdG9yKCkgeyB9XG59XG4iXX0=

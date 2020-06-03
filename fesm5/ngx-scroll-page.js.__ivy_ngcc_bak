@@ -1,0 +1,73 @@
+import { __decorate } from 'tslib';
+import { ɵɵdefineInjectable, Injectable, Component, Input, NgModule } from '@angular/core';
+
+var NgxScrollPageService = /** @class */ (function () {
+    function NgxScrollPageService() {
+    }
+    NgxScrollPageService.ɵprov = ɵɵdefineInjectable({ factory: function NgxScrollPageService_Factory() { return new NgxScrollPageService(); }, token: NgxScrollPageService, providedIn: "root" });
+    NgxScrollPageService = __decorate([
+        Injectable({
+            providedIn: 'root'
+        })
+    ], NgxScrollPageService);
+    return NgxScrollPageService;
+}());
+
+var NgxScrollPageComponent = /** @class */ (function () {
+    function NgxScrollPageComponent() {
+    }
+    NgxScrollPageComponent.prototype.ngOnInit = function () {
+    };
+    NgxScrollPageComponent = __decorate([
+        Component({
+            selector: 'lib-ngx-scroll-page',
+            template: "\n    <p>\n      ngx-scroll-page works!\n    </p>\n  "
+        })
+    ], NgxScrollPageComponent);
+    return NgxScrollPageComponent;
+}());
+
+var PagescrollComponent = /** @class */ (function () {
+    function PagescrollComponent() {
+    }
+    PagescrollComponent.prototype.ngOnInit = function () {
+    };
+    PagescrollComponent.prototype.top = function () {
+        document.documentElement.scrollTop = 0;
+    };
+    __decorate([
+        Input()
+    ], PagescrollComponent.prototype, "background", void 0);
+    PagescrollComponent = __decorate([
+        Component({
+            selector: 'ngx-page-scroll',
+            template: "<div (click)=\"top()\" id=\"totop\" [style.backgroundColor]=\"background\" >\n    &#8679;\n</div>",
+            styles: ["#totop{background-color:#dc143c;position:fixed;bottom:0;right:0;margin:20px;padding:9px 15px;border-radius:100%;color:#fff;box-shadow:0 0 5px 5px #f5f5f5;font-weight:bolder;cursor:pointer}"]
+        })
+    ], PagescrollComponent);
+    return PagescrollComponent;
+}());
+
+var NgxScrollPageModule = /** @class */ (function () {
+    function NgxScrollPageModule() {
+    }
+    NgxScrollPageModule = __decorate([
+        NgModule({
+            declarations: [NgxScrollPageComponent, PagescrollComponent],
+            imports: [],
+            exports: [NgxScrollPageComponent, PagescrollComponent]
+        })
+    ], NgxScrollPageModule);
+    return NgxScrollPageModule;
+}());
+
+/*
+ * Public API Surface of ngx-scroll-page
+ */
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+export { NgxScrollPageComponent, NgxScrollPageModule, NgxScrollPageService, PagescrollComponent as ɵa };
+//# sourceMappingURL=ngx-scroll-page.js.map

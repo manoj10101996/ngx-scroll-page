@@ -1,0 +1,56 @@
+{
+  "name": "ngx-scroll-page",
+  "author": {
+    "name": "Manojkumar Muthukumar",
+    "email": "manoj1010196@gmail.com"
+  },
+  "description": "Scroll page to top",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.9"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "icon": "https://image.flaticon.com/icons/png/512/1636/1636812.png",
+  "keywords": [
+    "angular",
+    "ngx",
+    "ng9",
+    "top",
+    "scroll",
+    "pagescroll",
+    "ngx-scroll-page",
+    "manoj10101996",
+    "uiconfig"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manoj10101996/ngx-scroll-page"
+  },
+  "main": "bundles/ngx-scroll-page.umd.js",
+  "module": "fesm5/ngx-scroll-page.js",
+  "es2015": "fesm2015/ngx-scroll-page.js",
+  "esm5": "esm5/ngx-scroll-page.js",
+  "esm2015": "esm2015/ngx-scroll-page.js",
+  "fesm5": "fesm5/ngx-scroll-page.js",
+  "fesm2015": "fesm2015/ngx-scroll-page.js",
+  "typings": "ngx-scroll-page.d.ts",
+  "metadata": "ngx-scroll-page.metadata.json",
+  "sideEffects": false,
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "9.1.9",
+    "esm2015": "9.1.9",
+    "esm5": "9.1.9",
+    "fesm2015": "9.1.9",
+    "fesm5": "9.1.9",
+    "main": "9.1.9",
+    "module": "9.1.9",
+    "typings": "9.1.9"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}
